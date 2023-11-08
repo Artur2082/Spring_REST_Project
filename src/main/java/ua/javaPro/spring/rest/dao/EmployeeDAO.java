@@ -1,6 +1,6 @@
-package ua.javaPro.spring.mvc_hibernate_aop.dao;
+package ua.javaPro.spring.rest.dao;
 
-import ua.javaPro.spring.mvc_hibernate_aop.entity.Employee;
+import ua.javaPro.spring.rest.entity.Employee;
 
 import java.util.List;
 

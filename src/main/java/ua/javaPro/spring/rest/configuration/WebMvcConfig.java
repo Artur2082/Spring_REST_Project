@@ -1,4 +1,4 @@
-package ua.hillel.springJdbc.config;
+package ua.javaPro.spring.rest.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.converter.HttpMessageConverter;
@@ -13,7 +13,7 @@ import java.util.List;
 @Configuration
 @EnableWebMvc
 public class WebMvcConfig implements WebMvcConfigurer {
-    @Override
+
     public void configureMessageConverters(List<HttpMessageConverter<?>> converters) {
         Jackson2ObjectMapperBuilder builder = new Jackson2ObjectMapperBuilder().indentOutput(true)
                 .dateFormat(new SimpleDateFormat("yyyy-MM-dd"));

@@ -1,2 +1,7 @@
-package ua.javaPro.spring.rest.exception_handling;public class NoSuchEmployeeException {
+package ua.javaPro.spring.rest.exception_handling;
+
+public class NoSuchEmployeeException extends RuntimeException {
+    public NoSuchEmployeeException(String message) {
+        super(message);
+    }
 }

@@ -1,4 +1,4 @@
-package ua.javaPro.spring.mvc_hibernate_aop.entity;
+package ua.javaPro.spring.rest.entity;
 
 import jakarta.persistence.*;
 
